@@ -53,10 +53,10 @@
     "buble": "^0.19.8",
     "cross-zip": "^2.1.6",
     "depcheck": "^0.8.3",
-    "electron": "~6.0.9",
-    "electron-osx-sign": "^0.4.13",
-    "electron-packager": "^14.0.6",
-    "electron-winstaller": "^4.0.0",
+    "electron": ">=6.0.12",
+    "electron-osx-sign": ">=0.4.14",
+    "electron-packager": ">=14.0.6",
+    "electron-winstaller": ">=4.0.0",
     "gh-release": "^3.5.0",
     "minimist": "^1.2.0",
     "nodemon": "^1.19.2",
@@ -87,7 +87,7 @@
   "main": "index.js",
   "optionalDependencies": {
     "appdmg": "^0.6.0",
-    "electron-installer-debian": "^2.0.0",
+    "electron-installer-debian": ">=2.0.1",
     "electron-installer-redhat": "^2.0.0"
   },
   "private": true,
